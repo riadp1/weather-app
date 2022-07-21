@@ -1,0 +1,73 @@
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: rgb(87, 82, 82);
+    font-family: 'Montserrat', sans-serif;;
+    background-image: url('/img/osman-rana-HOtPD7Z_74s-unsplash\ \(1\).jpg');
+}
+
+
+.card{
+    background: #000000d0;
+    padding: 2rem;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 420px;
+    margin: 1rem;
+    color: white;
+  
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    margin: 0.6em;
+    border-radius: 50%;
+    border: none;
+    height: 46px;
+    width: 46px;
+    outline: none;
+    background: #7c7c7c2b;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.search-bar{
+    border: none;
+    outline: none;
+    padding: 0.8em 1em;
+    border-radius: 24px;
+    background: #7c7c7c2b;
+    font-family: inherit;
+    font-size: 120%;
+    color: white;
+    width: calc(100% -100px);
+    
+
+}
+
+button:hover{
+    background: #7c7c7c6b;
+    
+  
+}
+
+h2.temp{
+    margin: 0;
+    font-size: 50px;
+}
+
+
+.weather {
+    font-family: cursive;
+}
